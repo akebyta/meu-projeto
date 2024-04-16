@@ -5,8 +5,8 @@
 --roxo: #7f499e;
 --branco: #4d3a5f;
 --botao-ativo: #6d519b;
---botao-inativo: rgba(61, 59, 82, 0.5);
---texto-fundo: rgba(129, 56, 197, 0.3);
+--botao-inativo: rgba(117, 105, 226, 0.5);
+--texto-fundo: rgba(240, 240, 240, 0.3);
 
 }
 
@@ -60,7 +60,25 @@ border-radius: 40px 40px 0 0;
 display:block;
 }
 
-.ativo {
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding:40px;
+    border-radius: 0 0 40px 40px;
+
+}
+
+.aba-conteudo.ativo{
+    display:block;
+
+}
+
+
+.aba-conteudo{
+    display:none;
+}
+
+
+.botao.ativo {
 background-color: var(--botao-ativo);
 border-bottom: 4px solid var(--verde);
 }
@@ -83,3 +101,8 @@ border-radius: 40px 0 0;
 border-radius: 0 40px 0 0;
 }
 }
+
+
+
+
+
