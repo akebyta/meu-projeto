@@ -6,8 +6,8 @@ const textos= document. querySelectorAll("aba.conteudo");
             botoes{j}.classlist.remove("ativo");
             textos{j}.classlist.remove("ativo");
         }
-        botoes[1].classlist.add("ativo");
-        textos[1].classlist.add("ativo");
+        botoes[i].classlist.add("ativo");
+        textos[i].classlist.add("ativo");
     }
  }
 
